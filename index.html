@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,148 +8,254 @@
   <link rel="stylesheet" href="style.css">
   <title>Empins Travel Agency</title>
 </head>
+
 <body>
-<header>
-  <article class="header">
-    <section class="header_logo">
-      <img class="logo_img" src="emp.png" alt="logo" width="350" height="280">
-      <nav class="header_link">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Countries</a></li>
-        <li><a href="#">About Us</a></li>
-        <li><a href="#contact_us">Contact Us</a></li>
-      </nav>
+  <header>
+    <!-- <article class="header"> -->
+    <!-- <section class="header_logo">
+        <img class="logo_img" src="emp.png" alt="logo" width="350" height="280">
+        <nav class="header_link">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Countries</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#contact_us">Contact Us</a></li>
+        </nav>
       
-   
-    
-      <button class="header_btn">
-        Apply Now
-      </button>
-    </section>   
-   
-<main>
-<article class="article_main">
-  <div class="overlay"></div>
-  <img class="img_main" src="youngman.jpg" alt="Homepage img" width="600" height="400">
-  <section class="form_1">
-    <form class="form_container" action="">
-      <h3>Choose a destination to fly!</h3>
-      <p>
-        <input class="form_input" type="text" name="name" id="name" placeholder="Name">
-      </p>
-      <p>
-        <input class="form_input" type="tel" name="telephone" id="phone" placeholder="Phone">
-      </p>
-      <p >
-        <label  for="countries"  style="color:rgb(6, 222, 238);">Select visa</label>
-       <select name="Countries" id="countries">
-        <option >Select Visa</option>
-        <option value="Can">Canada</option>
-        <option value="usa">United States</option>
-        <option value="uk">United Kingdom</option>
-        <option value="fin">Finland</option>
-        <option value="aut">Austria</option>
-        <option value="eur">Europe</option>
-       </select>       
-      </p>
-      <button class="btn_main">Apply Now</button>
-    </form>    
-  </section>
-</article>
-<!-- next page -->
-  <section class="info_section">
-    <div class="bg_color">
-      <h1 class="info_title">Travel the  World</h1>
-      <div class="underline"></div>
-      <h3 class="info_heading">Travel,Settle and Even work in Canada!</h3>
-      <div class="rline"></div>
-      <!-- <div class="dq"></div>the double quotation -->
-      <div class="flx">
-        <div class="image_cards">
-          <img class="small_img" src="emp.png" alt="">
-          <img class="larger_card_img" src="emp.png" alt="">
-          <div class="image_text_card">
-            <!-- <span class="quotes">
-              &ldquo;</span><p> -->
-              <b>Travel,</b>  <br>
-              <span class="ws">work,</span> <br>
-              <span class="ws">settle.</span>
-              </p>
-           </div>
-        </div>
-     
 
-        <div class="para">
-          <P>We provide expert team to create great value for immigration.
-            Our certified and reliable Immigration Consultant professionals can help you get
-            a positive decision on your case. We provide immigration services for Canada and
-             Schengen countries.</P>
-        </div>
-      </div>   
-    </div>    
-  </section>
-  <!-- next page begins here -->
-  <section class="visa_types">
-   <div class="vtcontainer">
-    <div class="vtcard1">
-      <div class="vticon"></div>
-      <div class="vtcontent">
-        <h3>Student Visa</h3>
-        <p>The student visa is a unique and highly valuable document which not only gives you the right to live and study in a certain country or region but also facilitates your mobility across international borders.</p>
-        <p class="rm">Read more >></p>
-      </div>
-    </div>
-    <div class="vtcard2">
-      <div class="vticon"></div>
-      <div class="vtcontent">
-        <h3>Business Visa</h3>
-                <p>A Business visa is a kind of visa that allows you to go travel temporarily for business purposes.If you intend to visit abroad for business, you must go as a business visitor.</p>
-                <p class="rm">Read more >></p>
-      </div>
-    </div>
-    <div class="vtcard3">
-      <div class="vticon"></div>
-      <div class="vtcontent">
-        <h3>Tourist Visa</h3>
-                <p>A tourist visa is an official document or stamp that authorizes an individual to enter a foreign country for the purpose of leisure and tourism.</p>
-                <p class="rm">Read more >></p>
-      </div>
-    </div>
-   </div>
-   <p class="ft">Challenges are just opportunities in disguise. View all Countries!</a></p>
-  </section>
+        <button class="header_btn">
+          Apply Now
+        </button>
+      </section> -->
 
-  <!-- next page begins here -->
-<section class="eta">
-  <div class="etaht">
-    <section class="info_title">
-        <h1>Empins Travel Agency</h1>
-        <div class="info_heading">
-            <h3>Your specialists in Visas and Immigration</h3>
+    <!-------- NAVBAR -------->
+    <nav class="navbar">
+      <section class="navbar-logo">
+        <img class="logo_img" src="emp.png" alt="logo">
+        <h3>Empins Travel Agency</h3>
+      </section>
+      <div class="navbar_links">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Countries</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="contact_us">Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="navbar-btn">
+        <button>
+          Apply Now
+        </button>
+      </div>
+    </nav>
+    <!--------- END OF NAVBAR ------->
+
+    <!---------- HERO --------->
+    <section class="hero-container">
+      <div class="hero-image">
+        <img src="youngman.jpg" alt="">
+      </div>
+      <div class="hero-card">
+        <div class="card">
+          <div class="card-title">
+            <h4>Choose a destination to fly</h4>
+          </div>
+          <div class="card-inputs">
+            <input type="text" name="name" id="name" placeholder="Name">
+            <input type="phone" name="phone" id="phone" placeholder="Phone">
+            <select name="countries" id="countries">
+              <option>Select Visa</option>
+              <option value="canada">Canada</option>
+              <option value="united states">United States</option>
+              <option value="united kingdom">United Kingdom</option>
+              <option value="finland">Finland</option>
+              <option value="australia">Austria</option>
+              <option value="europe">Europe</option>
+            </select>
+          </div>
+          <div class="card-button">
+            <button>Apply Now</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-------- END OF HERO ------->
+
+      <!------- INTRODUCTION -------->
+      <section class="introduction">
+        <div class="introduction-wrapper">
+          <div class="title">
+            <h1>Travel the world</h1>
+            <h2>Travel, settle and even work in Canada!</h2>
+          </div>
+          <div class="intro-content-wrapper">
+            <div class="intro-content-left">
+              <div class="left-image-1">image 1</div>
+              <div class="left-image-2">image 2</div>
+              <div class="left-banner">banner</div>
+            </div>
+            <div class="intro-content-right">
+              <p>We provide expert team to create greate value for immigration. Our certified & reliable Immigration
+                Consultant professionals can help you get a positive decision on your case. We provide immigration
+                services for Canada and Schengen countries</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- visas -->
+        <div class="visas">
+          <div class="visa">
+            <div class="visa-banner">
+              <!-- image -->
+            </div>
+            <div class="visa-title">
+              <h2>Student Visa</h2>
+            </div>
+            <div class="visa-content">
+              <p>The student visa is a unique and highly valuable document which not only gives you the right to live
+                and study in a certain country or region but also facilitates your mobility across international
+                borders.</p>
+            </div>
+            <div class="visa-footer">
+              <p>Read more >></p>
+            </div>
+          </div>
+          <div class="visa">
+            <div class="visa-banner">
+              <!-- image -->
+            </div>
+            <div class="visa-title">
+              <h2>Business Visa</h2>
+            </div>
+            <div class="visa-content">
+              <p>A Business visa is a kind of visa that allows you to go travel temporarily for business purposes.If
+                you intend to visit abroad for business, you must go as a business visitor.</p>
+            </div>
+            <div class="visa-footer">
+              <p>Read more >></p>
+            </div>
+          </div>
+          <div class="visa">
+            <div class="visa-banner">
+              <!-- image -->
+            </div>
+            <div class="visa-title">
+              <h2>Tourist Visa</h2>
+            </div>
+            <div class="visa-content">
+              <p>A tourist visa is an official document or stamp that authorizes an individual to enter a foreign
+                country for the purpose of leisure and tourism.</p>
+            </div>
+            <div class="visa-footer">
+              <p>Read more >></p>
+            </div>
+          </div>
+        </div>
+        <div class="introduction-footer">
+          <p>Challenges are just opportunities in disguise. View all Countries!</p>
         </div>
       </section>
-      <p class="rline"><br>
+      <!------- END OF INTRODUCTION -------->
 
-       <div class="para">
-         <b>Get an instant decision on your visa and immigration applications.</b> <br><br>
-        Visa, passport and immigration applications from start to finish. We make it easy getting your travel document in a stress-free environment. 
+      <!------- KNOW US -------->
+
+      <!------- END OF KNOW US ------->
+
+      <!-- next page -->
+      <!-- <section class="info_section">
+        <div class="bg_color">
+          <h1 class="info_title">Travel the World</h1>
+          <div class="underline"></div>
+          <h3 class="info_heading">Travel,Settle and Even work in Canada!</h3>
+          <div class="rline"></div>
+          <div class="flx">
+            <div class="image_cards">
+              <img class="small_img" src="emp.png" alt="">
+              <img class="larger_card_img" src="emp.png" alt="">
+              <div class="image_text_card">
+                <b>Travel,</b> <br>
+                <span class="ws">work,</span> <br>
+                <span class="ws">settle.</span>
+                </p>
+              </div>
+            </div>
+
+
+            <div class="para">
+              <P>We provide expert team to create great value for immigration.
+                Our certified and reliable Immigration Consultant professionals can help you get
+                a positive decision on your case. We provide immigration services for Canada and
+                Schengen countries.</P>
+            </div>
+          </div>
+        </div>
+      </section> -->
+      <!-- next page begins here -->
+      <!-- <section class="visa_types">
+        <div class="vtcontainer">
+          <div class="vtcard1">
+            <div class="vticon"></div>
+            <div class="vtcontent">
+              <h3>Student Visa</h3>
+              <p>The student visa is a unique and highly valuable document which not only gives you the right to live
+                and study in a certain country or region but also facilitates your mobility across international
+                borders.</p>
+              <p class="rm">Read more >></p>
+            </div>
+          </div>
+          <div class="vtcard2">
+            <div class="vticon"></div>
+            <div class="vtcontent">
+              <h3>Business Visa</h3>
+              <p>A Business visa is a kind of visa that allows you to go travel temporarily for business purposes.If
+                you intend to visit abroad for business, you must go as a business visitor.</p>
+              <p class="rm">Read more >></p>
+            </div>
+          </div>
+          <div class="vtcard3">
+            <div class="vticon"></div>
+            <div class="vtcontent">
+              <h3>Tourist Visa</h3>
+              <p>A tourist visa is an official document or stamp that authorizes an individual to enter a foreign
+                country for the purpose of leisure and tourism.</p>
+              <p class="rm">Read more >></p>
+            </div>
+          </div>
+        </div>
+        <p class="ft">Challenges are just opportunities in disguise. View all Countries!</a></p>
+      </section> -->
+
+      <!-- next page begins here -->
+      <!-- <section class="eta">
+        <div class="etaht">
+          <section class="info_title">
+            <h1>Empins Travel Agency</h1>
+            <div class="info_heading">
+              <h3>Your specialists in Visas and Immigration</h3>
+            </div>
+          </section>
+          <p class="rline"><br>
+
+          <div class="para">
+            <b>Get an instant decision on your visa and immigration applications.</b> <br><br>
+            Visa, passport and immigration applications from start to finish. We make it easy getting your travel
+            document in a stress-free environment.
             We guide you through the whole process with clear, up to date information.</p>
-      </p>
-       </div>
-     
-     
-       
-      <div class="image_cards">
-        <img class="small_img" src="emp.png" alt="">
-          <img class="larger_card_img" src="emp.png" alt="">
-    </div>
-    <div class="box"></div>
-   
-    <p class="consultancy">Visa & Travel Consultancy</p>
-    <p class="consultancy">Immigration Consultancy</p>
-  </div>
-</section>
-  <!-- <section class="contact">
+            </p>
+          </div>
+
+
+
+          <div class="image_cards">
+            <img class="small_img" src="emp.png" alt="">
+            <img class="larger_card_img" src="emp.png" alt="">
+          </div>
+          <div class="box"></div>
+
+          <p class="consultancy">Visa & Travel Consultancy</p>
+          <p class="consultancy">Immigration Consultancy</p>
+        </div>
+      </section> -->
+      <!-- <section class="contact">
  
     <div class="content">
     
@@ -207,7 +314,6 @@
     </div>
    </div> 
 </section>  -->
-
-</main>
 </body>
+
 </html>
