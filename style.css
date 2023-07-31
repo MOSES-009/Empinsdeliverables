@@ -1,0 +1,443 @@
+html{
+    scroll-behavior: smooth;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+}
+button{
+    background:  #fd6202eb;
+    border: none;
+    border-radius: .25rem;
+    color: #ffffff;
+}
+
+body{
+    margin-inline: auto;
+    height: 100%;
+    width:100%;
+    
+
+}
+main{
+    background-image:url('youngman.jpg');
+
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    width:100%;
+    height: 100%;
+}
+
+main::before {
+    content: "";
+    background: rgba(41, 115, 146, 0.664);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.header-link{
+  background-color: whitesmoke;
+}
+.header{
+    margin: .5rem;
+    top: 0;
+    width:100%;
+    
+}
+.header_btn {
+    
+    display: flex;
+    align-items: center;
+    /* right: 5px; */
+    background-color: #fd6202eb; /* Add your desired background color for the button */
+    color: #ffffff; /* Set text color to white */
+    padding: 10px 15px;
+    border: none;
+    left: 85px;
+    border-radius: 8px;
+    cursor: pointer;
+    height: 25px;
+    width:260px;
+    margin-top: 5px;
+    position: relative; /* Required for positioning the pseudo-element */
+  }
+
+.header_btn::before {
+    /* Add any necessary styles for the arrow */
+    content: "";
+    position: absolute;
+    right: 15px; /* Adjust the position of the arrow */
+    top: 50%;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 5px 5px 5px 0;
+    border-radius: 10px;
+    border-color: transparent #ffffff transparent transparent; /* Set the color of the arrow to white */
+    transform: translateY(-50%) rotate(180deg); /* Rotate the arrow to point towards the left */
+  }
+
+
+.header_btn::after {
+    /* Add any necessary styles for the line */
+    content: "";
+    position: absolute;
+    right: 15px; /* Adjust the position of the line */
+    top: 50%; /* Align the line vertically to the middle of the button */
+    width: 142px; /* Adjust the width of the line */
+    height: 1px; /* Adjust the height of the line */
+    background-color: #ffffff; /* Set the color of the line to white */
+    transform: translateY(-50%); /* Correct the vertical alignment */
+   
+}
+
+.logo_img{
+    width: 3.75rem;
+    height: 3.75rem;
+}
+
+li,a{
+    text-decoration: none;
+    list-style-type: none;
+    padding: .625rem;
+}
+a:any-link{
+    font-size: .95rem;
+    color: orangered;
+}
+nav{
+    display: flex;
+}
+.header_logo{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: blue;
+
+}
+/* .header_link{
+  color: blue;
+} */
+.article_main{
+    padding: .5rem;
+    
+    height: 80vh;
+}
+
+.img_main{
+    background-size: cover;
+    position: relative;
+    width: 1230px;
+    height: 430px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+   
+}
+label{
+    display: none;
+}
+p{
+    margin: 1rem;
+}
+.form_container{
+    display: flex;
+    flex-direction: column;
+    margin: 0.8rem;
+    position:absolute ;
+    top: 15.95rem;
+    width: 18rem;
+    height: 19rem;
+    background: white;
+    padding: .25rem;
+    right: 5px;
+    transform: translateY(-50%);
+}
+
+.form_container input
+.form_container textarea
+
+
+ {
+    margin-top: 10px;
+    margin-bottom: 20px; /* Adjust the spacing between elements (vertical spacing) */
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.form_container h3{
+    color: rgb(3, 89, 104);
+    font: size 10px;
+    left: 13px;
+    position: relative;
+    margin-bottom: 20px;
+    
+}
+.form_container button{
+    position: relative;
+    padding: .4rem;
+    margin-bottom: 20px;
+    height: 2rem;
+    width: 80px;
+    left: 180px;
+    /* margin-right: 1rem; */
+    margin-top: 25px;
+}
+::placeholder{
+    color:rgba(4, 104, 143, 0.566);
+}
+
+input,
+select{
+    border: none;
+    border-radius: .25rem;
+    padding: 0.5rem;
+    width: 100%;
+    background: rgb(210, 248, 255);
+}
+
+
+.info_section {
+    display: flex;
+    width:1600px;
+    height: 300px;
+    background-color: transparent;
+    /* left:-10px; */
+  }
+
+.info_section {
+    background-color: darkblue;
+    width: 100%;
+    border-radius: 0;
+  }
+
+.info_title {
+    margin-top: 5px;
+    margin-left: 10px;
+    position: relative;
+    z-index: 2;
+    display: inline-block;
+    padding-bottom: 10px;
+  }
+  
+
+  .info_heading{
+    margin-top: 5px;
+    margin-left: 10px;
+    position: relative;
+
+  }
+.underline {
+    position: absolute;
+    left: 0;
+    top: 5;
+    width: 50%; /* Adjust the width of the underline */
+    height: 3px;
+    background-color: #f36f21;
+    z-index: 1;
+  }
+.rline{
+  position: absolute;
+    left: 700px;
+    top: 5;
+    width: 50%; /* Adjust the width of the underline */
+    height: 3px;
+    background-color: #f36f21;
+    z-index: 1;
+}
+  .line{
+    color: whitesmoke;
+    margin-top: 1rem;
+    border-top: 7px solid salmon;
+    border-bottom: 2px solid whitesmoke;
+    background: #08377e;
+    padding: 1.8rem;
+    margin-left: 10rem;
+    font-size: 1.5rem;
+    width: 49%;
+    float: right;
+    flex:1,1,auto;
+  }
+
+
+
+  .image_text_card p {
+    color: #fff;
+    font-weight: bold;
+  }
+
+
+@media (max-width: 768px) {
+    body {
+      width: 90%;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    body {
+      width: 85%;
+      height: 100%;
+    }
+    nav{
+        display: none;
+    }
+  }
+  
+  @media (max-width: 375px) {
+    body {
+      width: 90%;
+    }
+    nav{
+        display: none;
+    }
+    /*home page styling ends*/
+    
+  } 
+
+  /*trtw styling begins here*/
+  .visa_types{
+    position: relative;
+  }
+  .bg_color{
+    position: relative;
+    /* height:  */
+  }
+  .image_cards {
+    display: flex;
+    position: absolute;
+    top:60px;
+    bottom: 20px;
+    left: 20px;
+  }
+
+  .image_card {
+    border-radius: 0;
+    margin-right: 8px;
+    /* overflow: hidden; */
+  }
+
+  
+ .small_img{
+    width: 150px;
+    height:250px;
+ }
+  .larger_card_img{
+    width: 250px;
+    height:400px;
+
+    transform: translateY(-20px);
+    z-index: 1;
+  }
+
+  .image_text_card {
+    background-color: #f36f21;
+    position: absolute;
+    top: 70px;
+    left: 100px;
+    width: 120px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0;
+  }
+  .info_title{
+    width: 50%;
+    font-size: 1.5rem;
+  }
+
+  .para{
+    width: 50%;
+    color: whitesmoke;
+    float: right;
+    /* border-top: 4px solid salmon; */
+    border-bottom: 2px solid whitesmoke;
+    padding: 1.8rem;
+    margin-left: 2rem 1.5rem 0 0;
+    font-size: 1.5rem;
+    width: 49%;
+    float: right;
+    flex:1,1,auto;
+  }
+  
+
+  .flx{
+    content: flex;
+  }
+
+  .vtcontainer{
+    margin-top: 9rem;
+    padding: .3rem;
+    display: flex;
+    justify-content: space-around;
+    flex: 1,1,auto;
+  }
+
+  .vtcontent{
+    border-radius: .4rem;
+    background: #08377e;
+    margin: .5rem;
+    padding: 1.2rem;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+  }
+
+  .ft{
+    text-align: center;
+    font-size: 1.5rem;
+  }
+
+  /* next page begins here */
+  .eta{
+    margin-top: 3rem;
+  }
+  .box{
+    position: absolute;
+    width: 160px;
+    height: 170px;
+    margin-right: 200px;
+    background-color: salmon;
+    margin-left: 5.5rem;
+    margin-bottom: 10rem;
+    top: 16em;
+    opacity: 0.7;
+  }
+  .etaht{
+    color: whitesmoke;
+    background: #08377e;
+    margin-top: 3rem;
+    position: relative;
+    width:1600px;
+    height: 300px;
+        /* margin-top: 1rem;    
+        background: #08377e;
+        /* padding: 1.8rem; */
+        /* margin-left: 10rem; */
+        /* font-size: 1.5rem;
+        width: 49%;
+        float: right;
+        flex:1,1,auto; */ 
+  }
+
+
+ 
+    
+    
+    
+    
+    
+    
+    
+
+

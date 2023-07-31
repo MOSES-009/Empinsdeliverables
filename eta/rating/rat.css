@@ -1,0 +1,30 @@
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+.cont{
+    display: flex;
+    padding: 3rem;
+    justify-content: space-around;
+}
+.crd{
+    background: #08377e;
+    color: antiquewhite;
+    width: 30%;
+    flex: 1,1,auto;
+}
+.name{
+    font-weight: bolder;
+}
+.pic{
+    height: 6rem;
+    border-bottom: 1px solid whitesmoke;
+}
+
+.crd,.cont{
+    border-radius: 4rem;
+    margin: .5rem;
+    padding: 1.2rem;
+    background: #08377e;
+}
