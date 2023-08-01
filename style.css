@@ -22,18 +22,18 @@ body {
   margin-inline: auto;
   height: 100%;
   width: 100%;
-  background: rgba(41, 115, 146, 0.664);
+  /* background: rgba(41, 115, 146, 0.664); */
 }
-/* main {
-
+main {
+background: url('./youngman.jpg');
   background-size: cover;
   background-position: center;
   position: relative;
   width: 100%;
   height: 100%;
-} */
+}
 
-/* main::before {
+main::before {
   content: "";
   background: rgba(41, 115, 146, 0.664);
   position: absolute;
@@ -41,7 +41,7 @@ body {
   bottom: 0;
   left: 0;
   right: 0;
-} */
+}
 
 /* .header-link{
   background-color: whitesmoke;
@@ -311,6 +311,7 @@ select {
 .small_img {
   width: 150px;
   height: 250px;
+  background: #000;
 }
 .larger_card_img {
   width: 250px;
