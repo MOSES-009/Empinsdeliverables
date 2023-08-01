@@ -601,3 +601,82 @@ select {
 .visa-content{}
 .visa-footer{}
 /* END OF INTRODUCTION */
+
+/* FOOTER */
+.footer{
+  background-color: #08377e;
+}
+.footer .title{
+  text-align: center;
+  margin-bottom: 15px;
+}
+.footer-top{
+  display: flex;
+  border-bottom: 1px solid white;
+  padding: 20px 10px;
+}
+.footer-about{
+  flex: 1;
+  padding: 0 15px;
+  display: flex;
+  flex-direction: column;
+  border-right: 1px solid white;
+}
+.about-logo{}
+.about-content{
+  padding: 15px 0;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+}
+
+.footer-posts{
+  flex: 1;
+  padding: 0 15px;
+  display: flex;
+  flex-direction: column;
+  border-right: 1px solid white;
+}
+.footer-posts .post{
+  margin-bottom: 20px;
+  padding-left: 20px;
+}
+
+.footer-top-links{
+  flex: 1;
+  padding: 0 15px;
+  display: flex;
+  flex-direction: column;
+  border-right: 1px solid white;
+}
+.footer-top-links .top-links{
+  width: 40%;
+  margin: auto;
+  margin-top: 0;
+}
+.footer-top-links .top-links .link{
+  margin-bottom: 20px;
+}
+
+.footer-contact{
+  flex: 1;
+  padding: 0 15px;
+  display: flex;
+  flex-direction: column;
+}
+.footer-contact .contact-item{
+  margin-bottom: 15px;
+}
+
+.footer-bottom{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  font-size: 20px;
+}
+.footer-bottom-links a{
+  text-decoration: none;
+  color: black;
+  margin-left: 50px;
+}
+
+/* END OF FOOTER */
