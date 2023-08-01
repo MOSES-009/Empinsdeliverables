@@ -566,7 +566,65 @@ select {
 }
 
 /* END OF HERO */
+.newsletter{
+  position: relative;
+  width: 100%;
+  height:120vh;
+  /* display: flex; */
+}
+.s-up{
+  /* float: right; */
+  color: antiquewhite;
+  font-size: 2rem;
+  position: absolute;
+  left:667px;
+  bottom:400px;
+  padding-left: ;
+  
+}
+hr{
+  height: 4px;
+  background-color: #f36f21;
+  border: none;
+}
+.nl{
+  background-color: #08377e;
+}
+.mail-input{
+  width: 12rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 3rem;
+}
 
+.mail-input input{
+  margin-bottom: 20px;
+  outline: none;
+  border: none;
+  border-radius: 0.25rem;
+  padding: 0.5rem;
+  width: 100%;
+  background: rgb(210, 248, 255);
+}
+
+.mail-input select{
+  outline: none;
+  border: none;
+  border-radius: 0.25rem;
+  padding: 0.5rem;
+  width: 100%;
+  background: rgb(210, 248, 255);
+}
+
+.mail-button{
+  /* margin-top: 2px; */
+}
+
+.mail-input button{
+  float: right;
+  color: aqua;
+}
 /* INTRODUCTION */
 .introduction{
   display: flex;
