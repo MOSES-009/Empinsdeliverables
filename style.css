@@ -197,16 +197,30 @@ select {
 
 .info_section {
   display: flex;
-  width: 1600px;
-  height: 300px;
+  flex-direction: column;
+  /* width: 1600px; */
+  /* height: 300px; */
   background-color: transparent;
   /* left:-10px; */
 }
 
 .info_section {
-  background-color: darkblue;
+  /* background-color: darkblue; */
   width: 100%;
+  height: fit-content;
   border-radius: 0;
+}
+.info_section_footer{
+  color: white;
+  font-size: 20px;
+  z-index: 2;
+  text-align: center;
+  padding-bottom: 20px;
+}
+.info_section_footer a{
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
 }
 
 .info_title {
@@ -292,14 +306,40 @@ select {
 }
 .bg_color {
   position: relative;
+  background-color: darkblue;
+padding-bottom: 15px;
+
   /* height:  */
 }
-.image_cards {
+
+.flx {
+  /* content: flex; */
   display: flex;
-  position: absolute;
-  top: 60px;
+}
+
+.info-content{
+  flex: 1;
+  display: flex;
+  border-bottom: 2px solid white;
+}
+.info-icon{
+  padding-left: 20px;
+  padding-top: 15px;
+  padding-bottom: 20px;
+}
+.info-paragraph{
+  padding: 40px 5px 40px   5px ;
+  font-size: 22px ;
+  text-align: center;
+}
+
+.image_cards {
+  flex: 1;
+  /* display: flex; */
+  position: relative;
+  /* top: 60px;
   bottom: 20px;
-  left: 20px;
+  left: 20px; */
 }
 
 .image_card {
@@ -309,14 +349,20 @@ select {
 }
 
 .small_img {
-  width: 150px;
-  height: 250px;
+  position: absolute;
+  width: 38%;
+  height: 280px;
+  top: 10px;
+  left: 60px;
   background: #000;
 }
 .larger_card_img {
-  width: 250px;
-  height: 400px;
-
+  position: absolute;
+  width: 49%;
+  height: 380px;
+  top: 40px;
+  right: 0;
+background: #000;
   transform: translateY(-20px);
   z-index: 1;
 }
@@ -324,18 +370,74 @@ select {
 .image_text_card {
   background-color: #f36f21;
   position: absolute;
-  top: 70px;
-  left: 100px;
-  width: 120px;
-  height: 120px;
+  top: 250px;
+  left: 200px;
+  width: 30%;
+  height: 200px;
   display: flex;
   align-items: center;
   justify-content: center;
   border-radius: 0;
+  z-index: 2;
 }
 .info_title {
   width: 50%;
   font-size: 1.5rem;
+}
+
+/* visas */
+
+.visa-container{
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  height: 100%;
+  margin: auto;
+  padding-top: 350px;
+  padding-bottom: 40px;
+  z-index: 2;
+}
+.visa-card{
+  width: 300px;
+  height: 380px;
+  background-color: rgba(41, 41, 255, 0.534);
+  padding: 15px 15px;
+  color: white;
+}
+.visa-header{
+  width: 100%;
+  height: 40%;
+  border-bottom: 1px solid white;
+  padding-bottom: 10px;
+}
+.visa-header img{
+width: 100%;
+height: 100%;
+background-position: center;
+background-size: cover;
+}
+.visa-body{
+  height: 50%;
+}
+.visa-title{
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 22px;
+}
+.visa-content{
+  font-size: 18px;
+}
+.visa-footer{
+  margin-top: 10px;
+  font-size: 20px;
+  height: 10%;
+  display: flex;
+  align-items: flex-end;
+  padding-bottom: 10px;
+}
+.visa-footer a{
+  text-decoration: none;
+  color: white;
 }
 
 .para {
@@ -350,10 +452,6 @@ select {
   width: 49%;
   float: right;
   flex: 1, 1, auto;
-}
-
-.flx {
-  content: flex;
 }
 
 .vtcontainer {
@@ -693,15 +791,7 @@ select {
 }
 .introduction-footer{}
 
-/* visas */
-.visas{
-  display: flex;
-}
-.visa{}
-.visa-banner{}
-.visa-title{}
-.visa-content{}
-.visa-footer{}
+
 /* END OF INTRODUCTION */
 
 /* FOOTER */
