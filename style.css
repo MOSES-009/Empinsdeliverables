@@ -210,6 +210,18 @@ select {
   height: fit-content;
   border-radius: 0;
 }
+.info_section_footer{
+  color: white;
+  font-size: 20px;
+  z-index: 2;
+  text-align: center;
+  padding-bottom: 20px;
+}
+.info_section_footer a{
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
 
 .info_title {
   margin-top: 5px;
@@ -382,20 +394,30 @@ background: #000;
   height: 100%;
   margin: auto;
   padding-top: 350px;
-  padding-bottom: 80px;
+  padding-bottom: 40px;
   z-index: 2;
 }
 .visa-card{
   width: 300px;
   height: 380px;
-  background-color: #fff;
+  background-color: rgba(41, 41, 255, 0.534);
   padding: 15px 15px;
+  color: white;
 }
 .visa-header{
+  width: 100%;
   height: 40%;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid white;
+  padding-bottom: 10px;
+}
+.visa-header img{
+width: 100%;
+height: 100%;
+background-position: center;
+background-size: cover;
 }
 .visa-body{
+  height: 50%;
 }
 .visa-title{
   margin-top: 5px;
@@ -408,9 +430,14 @@ background: #000;
 .visa-footer{
   margin-top: 10px;
   font-size: 20px;
+  height: 10%;
+  display: flex;
+  align-items: flex-end;
+  padding-bottom: 10px;
 }
 .visa-footer a{
   text-decoration: none;
+  color: white;
 }
 
 .para {
