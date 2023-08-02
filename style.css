@@ -597,6 +597,7 @@ background-size: cover;
   margin: auto;
   padding-top: 20px;
   height: 90vh;
+
 }
 .hero-image {
   width: 100%;
@@ -662,7 +663,29 @@ background-size: cover;
   color: #ffffff;
   cursor: pointer;
 }
+.bg_color{
+  margin-top: 30px;
 
+}
+/*.main-wrapper{
+
+background: url('./youngman.jpg');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.main_wrapper::before {
+  content: "";
+  background: rgba(41, 115, 146, 0.664);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
 /* END OF HERO */
 
 
@@ -676,8 +699,9 @@ background-size: cover;
     justify-content: space-between;
     padding: 2rem;
     position: relative;
-    background-color: #f9f9f9;
-    height: 300px;
+    opacity: 90%;
+    background-color: #007fd4;
+    height: 260px;
   }
 
   .nl {
@@ -687,7 +711,7 @@ background-size: cover;
   .s-up {
     bottom: 180px;
     color: #000;
-    right: 100px;
+    right: 90px;
     position: absolute;
   }
 
@@ -696,51 +720,66 @@ background-size: cover;
   }
 
   .mail-input {
-    display: flex;
-    align-items: center;
+    bottom: 130px;
+    color: #000;
+    right: 90px;
+    position: absolute;
   }
 
   .mail-input input {
     padding: 8px;
     border: 1px solid #ccc;
     border-radius: 4px;
-    width: 250px;
+    width: 450px;
   }
 
-  .mail-input button {
-    margin-left: 10px;
+  .subscribe_button {
+    right: 108px;
     border: none;
     background-color: transparent;
-    color: #000;
+    color: #00bcd4;
     cursor: pointer;
+    bottom:100px;
+    position: absolute;
   }
 
-
+ .demo_image img{
+  background: #333333;
+}
 
   .image-cards .nl_image {
     width: 150px;
-    height: 150px;
+    height: 240px;
     border-radius: 0;
 
     /*box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);*/
     position: absolute;
-    bottom: 0;
-    left: 0;
+    bottom: 50px;
+    left: 20px;
   }
 
 
   .newsletter_line {
-    content: "";
-    position: absolute;
-    top: 50%;
-    right:0 ;
-    height: 5px;
-    width: 1000px;
-    color: #000;
-    transform: translateY(-50%);
-    z-index: -1;
+
+
+    color:orange;
+  margin-left: 171px; /* Adjust the position of the line */
+  top: 85px; /* Align the line vertically to the middle of the button */
+  width: 1100px; /* Adjust the width of the line */
+  height: 1px; /* Adjust the height of the line */
+  /*background-color: #ffffff; !* Set the color of the line to white *!*/
+  /* Correct the vertical alignment */
   }
 
+  .newsletter_text_card{
+    width:140px;
+    height:130px;
+    color: rgba(255,165,0,0.2);
+    opacity: 50%;
+
+    top:120px;
+    left: 110px;
+  }
 
   .newsletter p,
   .newsletter label {
@@ -797,6 +836,7 @@ background-size: cover;
 /* FOOTER */
 .footer{
   background-color: #08377e;
+  margin-top: 30px;
 }
 .footer .title{
   text-align: center;
