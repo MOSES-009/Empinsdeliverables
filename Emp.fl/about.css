@@ -1,0 +1,525 @@
+html{
+    scroll-behavior: smooth;
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  main{
+    background-image: url('./pictures/822.jpg');
+    z-index: -4;
+    position: relative;
+    background-repeat: no-repeat;
+    /* top: 0;
+    bottom: 0; */
+    width: 100%;
+    height: 100%;
+  
+      background-size: cover;
+      background-position: center;
+    
+      
+    }
+
+    main::before {
+  content: "";
+  background: rgba(41, 115, 146, 0.664);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -4;
+}
+
+    .topsection{     
+        font-family: "Poppins", sans-serif;
+        font-size: 2rem;
+    }
+
+    .heading::before{
+        content: "";
+        background: rgba(41, 115, 146, 0.664);
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        z-index: -4;
+    }
+
+    .heading{
+        height: 250px;
+        background: url('./pictures/1461.jpg');
+          background-size: cover;
+          background-position: center;
+          position: relative;
+          color: whitesmoke; 
+          z-index: -4; 
+    }
+
+    .content{
+        position: absolute;
+        font-size: 30px;  
+        margin-top: 10rem; 
+        font-weight: bold; 
+        margin-left: 2rem;  
+    }
+
+    .about-us::before {
+        content: "";
+        background: #00293f;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -2;
+    }
+
+    .mission::before {
+        content: "";
+        background-image: url('./pictures/822.jpg');
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -2;
+    }
+    
+    .about-us{
+        position: relative;
+        padding-bottom: 40px;
+        
+    }
+
+    .about-us-container{
+        display: flex;
+        padding-top: 36px;
+    }
+
+
+    .about-us-left{
+        flex: 1;
+        position: relative;
+    }
+
+    .about-us-left .img1{
+        position: relative;
+        width: 100%;
+        height: 330px;
+        top: 30px;
+        left: 20%;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .about-us-left .box1{
+        opacity: 0.8;
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        left: 14%;
+        top: 2px;
+        background-color: aqua;
+    }
+
+    .about-us-left .box2{
+        position: absolute;
+        width: 210px;
+        height: 210px;
+        bottom: -18%;
+        right: -28%;
+        background-color: #f05a24;
+        z-index: -1;
+    }
+
+    .about-us-right{
+        flex: 1;
+        /* display: flex; */
+    }
+
+    .about-us-pnb{
+        
+        margin-bottom: 38px;
+        font-size: 22px;
+        text-align: left;
+        width: 90%;
+        color: #ffffff;
+        font-family: "Poppins", sans-serif;
+        position: relative;
+        font-weight: 100;
+    }
+    .aboutline{
+        margin-bottom: 1rem;
+        position: absolute;
+        top: 5;
+        width: 111%; /* Adjust the width of the underline */
+        height: 6px;
+        background-color: #f05a24; 
+                   
+    }
+
+    .about-us-pnb >img{
+        height: 52px;
+        width: 52px;
+        position: absolute;
+        left: -50px;
+        top: 20px;
+        
+    }
+
+    .about-us-pnb >p{
+       padding-top: 70px;
+       padding-bottom: 2rem;
+    }
+
+    .linebelowp{
+        position: absolute;
+        width: 750px; /* Adjust the width of the underline */
+        height: 2px;
+        background-color: #ffffff; 
+        left: -12.7%;
+
+    }
+
+    .about-us-pnb >a{
+        color: #09c9e2;
+        float: right;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    .h1{
+        font-size: 20px;
+        /* margin-left: ; */
+        width: 90%;
+        color: antiquewhite;
+        font-family:"Poppins", sans-serif;
+        text-align: end;
+    }
+
+    .lineh1{
+        position: absolute;
+        top: 5;
+        width: 40%; /* Adjust the width of the underline */
+        height: 0.5px;
+        background-color: #f05a24;
+        margin-left: 8.3rem;
+        
+    }
+    
+    .subheading{
+        font-size: 25px;        
+        width: 90%;
+        color: antiquewhite;
+        font-family: "Poppins", sans-serif;
+        margin-bottom: 2rem;
+        text-align: end;
+    }
+
+    .linebelow{
+        position: absolute;
+        /* right: 700px; */
+        top: 5;
+        width: 600px; /* Adjust the width of the underline */
+        height: 1px;
+        background-color: whitesmoke;
+        z-index: 1; 
+    }
+
+    .widthspan{
+        color: antiquewhite;
+        font-family: "Poppins", sans-serif;
+        background-color: rgb(30, 36, 121);
+        width: 100%;
+        height: 300px;
+
+    }
+
+    .aboutsection{
+        width: 60%;
+        /* float: right; */
+    
+    }
+
+    .bottomline{
+        position: absolute;
+        left: 800px;
+        margin-top: 6px;
+        width: 50%; /* Adjust the width of the underline */
+        height: 1px;
+        background-color: whitesmoke;
+        z-index: 1;  
+    }
+    
+    
+    .title{
+        font-size: 10px;
+        margin-left: 19.5rem;
+        margin-bottom: 2px;
+    }
+
+    .subtitle{
+        font-size: 22px;
+        margin-left: 9rem;
+        margin-bottom: 13px;
+    }
+
+    .bluebox{
+        width: 80px;
+        height: 80px;
+        color:#00008B;
+        opacity: 0.5;
+        position: absolute;
+    }
+
+    .mainimg{
+        position: relative;
+        /* margin-right: 850px; */
+        width: 60%;
+        /* margin-bottom: 13rem; */
+    }
+
+    .orangeboxf{
+        width: 200px;
+        height: 200px;
+        background-color: orangered;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        z-index: 1;
+    }
+
+    .blueboxf{
+        width: 80px;
+        height: 80px;
+        background-color: aquamarine;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 1;
+    }
+
+    .larger_card_imgf{
+        position: relative;
+        bottom: 10px;
+        right: 10px;
+        left: 20px;
+    }
+
+    button{
+        margin-top: 6px;
+        float: right;
+        color: aqua;
+        border: none;
+    }
+    
+    .missionleft{
+        margin-top: 5rem;
+        color: antiquewhite;
+        background-color: #00293f;
+        width: 55%;
+        font-family:  "Poppins", sans-serif;
+    }
+
+
+
+    .upperline{
+        position: absolute;  
+        width: 50%; /* Adjust the width of the underline */
+        height: 1px;
+        background-color: whitesmoke;
+        z-index: 1;  
+    }
+
+    .mission{
+        display: flex;
+        position: relative;
+        margin-top: 3rem;
+    }
+
+    .missionleft>h4{
+        font-size: 1.5rem;
+        font-family:  "Poppins", sans-serif;
+        color: aqua;
+    }
+
+    .missionleft>p{
+        padding-bottom: 2rem;
+    }
+
+    .missionright{
+        display: flex;
+       flex: 1;
+        position: relative;
+       /* background: #000; */
+    }
+
+    .images{
+        position: relative;
+        width: 50%;
+    }
+
+    .orangebox{
+        width: 250px;
+        height: 250px;
+        background-color: #f05a24;
+        position: absolute;
+        top: 0;
+        right: -93%;
+    }
+    .larger_card_img{
+        top: 25px;
+        margin-left: 855px;
+        width: 420px;
+        height: 440px;
+        position: absolute;        
+    }
+
+
+
+
+    .news{
+        text-align: center;
+        color: whitesmoke;
+        font-size: 0.8rem;
+        margin-top: 13rem;
+        
+    }
+    .newssubtitle{
+        text-align: center;
+        color: whitesmoke;
+        font-size: 2.5rem;
+    }
+
+    .r3line{
+        position: absolute;
+        width: 22%; /* Adjust the width of the underline */
+        height: 8px;
+        background-color: #f05a24;
+        z-index: 1;
+        margin-bottom: 2rem;
+        margin-top: 5rem;
+        margin-left: 559px;
+    }
+
+    .admincards{
+        display: flex;
+        justify-content: center;
+        margin-left: 1.8rem;
+    }
+
+    .container{
+        display: flex;
+    }
+
+    .parent{
+        position: relative;
+        margin: 10px;
+    }
+
+    .card hr{
+        height: 1px;
+        border: none;
+        background-color: aquamarine;
+    }
+
+    .card{      
+        background: #00008B;
+        width: 390px;
+        height: 250px;
+        margin: 10px;
+        opacity: 0.8;  
+        top: 20px;
+        left: 20px;      
+    }
+
+    .bluebg{    
+        width: 410px;
+        height: 61px;
+        background-color: #00ffff;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+    }
+
+    .topsection{
+        background-color: blue;
+        height: 55px;
+        color: #ffffff;
+        font-family: sans-serif;
+        display: flex;
+        align-items: center;
+        /* position: absolute; */
+    }
+
+    .topsection>p{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .topsection>img{
+        margin-right: 1rem;
+        width: 50px;
+        height: 100%;
+        position: relative;
+        
+    }
+    
+
+    .card> h3{
+        margin-left: 16.3rem;
+        color:#00ffff;
+        font-weight: 100;
+        margin-bottom: 6px;
+        font-family: "Poppins", sans-serif;
+    }
+
+    .imgclass>img{
+        width: 40px;
+        height: 40px;
+        position: relative;
+    }
+    .card> p{
+        color: #ffffff;
+        font-family:"Poppins", sans-serif;
+        margin-left: 2.4rem;
+        font-size: 2.2rem;
+        font-weight: 600;
+    }
+
+    .topsection .fa{
+        color: whitesmoke
+    }
+    .fa {
+        color: whitesmoke;
+        font-size: 3rem;
+        margin-left: 1rem;
+    }
+
+   
+
+    button{
+    opacity: 1;
+    background:  none;
+    border: none;
+    border-radius: .25rem;
+    color: #00ffff;
+    font-weight: bold;
+    font-size: larger;
+    }
+
+    /* //mobile devices */
+@media screen and (max-width:480px){}
+
+/* //ipads and tablets */
+@media screen and (max-width:768px) and (min-width:481px){}
+
+    
+
+    
